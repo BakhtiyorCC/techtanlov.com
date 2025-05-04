@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechTanlov</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="techtanlov.jpg" type="jpg/png">
+    
+
+    <style>
+        /* Umumiy sozlamalar */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #accffc; /* To‘q ko‘k fon rangi */
+            color: #ecf0f1; /* Oq matn rangi */
+            font-size: 16px;
+            line-height: 1.8;
+        }
+
+        /* Header styling */
+        header {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+            border-radius: 12px;
+            margin: 40px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        header a {
+            text-decoration: none;
+            color: white;
+            background-color: #1abc9c;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            margin: 10px 15px;
+            border-radius: 8px;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        header a:hover {
+            background-color: #16a085;
+            transform: scale(1.05);
+        }
+
+        /* Image styling */
+        #rasm {
+            width: 100px;
+            height: auto;
+            margin-right: 15px;
+            border-radius: 12px;
+        }
+
+        /* Nav styling */
+        nav {
+            background-color: #34495e;
+            padding: 20px;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            margin: 0 15px;
+            border-radius: 8px;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #1abc9c;
+            transform: scale(1.05);
+        }
+
+        /* Mobile responsivlik */
+        @media (max-width: 768px) {
+            header h2 {
+                font-size: 1.8rem;
+            }
+
+            header a {
+                font-size: 1rem;
+                padding: 12px 25px;
+            }
+
+            nav a {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Logo rasmni joylashtirish -->
+    <header>
+        <img src="techtanlov.jpg" alt="Tech Tanlov rasmi" id="rasm">
+        <h2>Siz dasturchi bo'lishni hohlaysizmi?</h2>
+        <a href="yo'q.html">Yo'q</a>
+        <a href="ha.html">Ha</a>
+    </header>   
+
+    <!-- Navigatsiya menyusi -->
+    <nav>
+        <a href="ha.html">Home</a>
+        <a href="https://bakhtiyorcc.github.io">Author</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</body>
+</html>
